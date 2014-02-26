@@ -1,0 +1,18 @@
+material fog
+{
+    technique
+    { 
+        pass 
+        {
+            // shaders
+            fragmentShader = res/shaders/fog.frag
+        }
+    }
+
+            renderState
+            {
+                cullFace = true
+                depthTest = true
+            }
+}
+
