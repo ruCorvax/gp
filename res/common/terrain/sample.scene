@@ -19,8 +19,8 @@ scene terrainSampleScene
 
         material = res/common/terrain/sky.material
 
-        scale = 30000,30000,30000
-        translate = 0,25000,0
+        scale = 50000,50000,50000
+               translate = 10000, 4000, -100000
     }
 
     node directionalLight
@@ -44,8 +44,8 @@ scene terrainSampleScene
 		}
 
         // Starting position on ground
-	//	translate = 3095, 1369, -4393
-		translate = -5000, 369, -5000
+		translate = 0, 3069,0
+		translate = 10000, 4000, -100000
 		rotate = 0,1,0, 148
 
         // Screenshot position in air (screenshots)
